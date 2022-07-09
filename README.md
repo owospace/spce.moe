@@ -62,7 +62,6 @@
   3. If you're using the 2019/2020 folders, you have nothing more to do. Just open the index.html file into your browser or serve with A2/Nginx :)<br>
 
   4. If you're using the 2022-> folders, you need to install Node.js:<br>
-  * [Node.js](https://nodejs.org/en/)<br>
   ```
     https://nodejs.org/en/
   ```
