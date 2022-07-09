@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/owospace/spce.moe/master/logo.png" width="220" height="148">
+  <img src="https://raw.githubusercontent.com/owospace/spce.moe/master/logo.png" width="160" height="148">
   <h1 align="center">spce.moe</h1>
 
   <p align="center">
