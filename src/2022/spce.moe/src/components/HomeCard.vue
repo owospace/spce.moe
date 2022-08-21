@@ -10,11 +10,15 @@
             <div class="p-8 fade rounded-2xl text-center mx-auto card opacity-60">
 
                 <img class="container pt-8" src="../assets/logo.png">
-                <h1 class="font-semibold text-3xl">spce.moe</h1>
+                <h1 class="font-semibold text-3xl hcl">space</h1>
                 
-                <p class="pb-8 pt-2 font-mono">welcome</p>
-                <p class="font-mono">i work with computers.</p>
-                <p class="font-mono">from the cybrspce~</p>
+                <p class="pb-6 pt-2 font-mono">she/her</p>
+                <p class="font-mono ">💼 Software Developer</p>
+                <p class="font-mono">📍 Netherlands</p>
+
+                <p class="pb-6 pt-6 font-mono">coexisting with my bed</p>
+                
+                <p class="font-mono">🔗 link.spce.moe</p>
 
                 <!-- <router-link to="about">About</router-link> -->
 
@@ -33,6 +37,10 @@
 			1000px 100%,
 			1500px 0;
 	}
+}
+
+.hcl {
+    color: #fff !important;
 }
 
 .slice-div,.slice-div-large {
