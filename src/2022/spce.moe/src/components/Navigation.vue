@@ -11,7 +11,7 @@
                     <a href="#"><img src="../assets/logo.png"></a>
                 </div>
 
-                <div class="text-center p-8 mx-auto">
+                <div class="text-center p-8 fade mx-auto">
                     <nav>
                         <ul>
                             <li><router-link to="/">Home</router-link></li>
@@ -53,5 +53,21 @@ nav a {
 
 nav a.router-link-exact-active {
     color: #aaa;
+    transition: opacity 2s;
+}
+
+nav a:hover {
+    transition: opacity 2s;
+    color: #aaa;
+}
+
+.fade {
+    transition: opacity 1s;
+    opacity: 50%;
+}
+
+.fade:hover {
+    opacity: 100%;
+    transition: opacity 1s;
 }
 </style>

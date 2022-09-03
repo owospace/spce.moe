@@ -10,7 +10,7 @@
             <div class="p-8 fade rounded-2xl text-center mx-auto card opacity-60">
 
                 <img class="container pt-8" src="../assets/logo.png">
-                <h1 class="font-semibold text-3xl hcl">space</h1>
+                <h1 class="font-semibold text-3xl hcl">maple</h1>
                 
                 <p class="pb-6 pt-2 font-mono">she/her</p>
                 <p class="font-mono ">💼 Software Developer</p>
