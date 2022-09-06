@@ -17,7 +17,7 @@
                 
                 <p class="pb-6 pt-2 font-mono">she/her</p>
 
-                <div class="flex justify-center">
+                <div class="flex justify-center pb-1">
                     <img class="ico" src="../assets/briefcase.png"><p class="font-mono pl-2">Software Developer</p>
                 </div>
 
@@ -28,7 +28,7 @@
 
                 <p class="pb-6 pt-6 font-mono">coexisting with my bed</p>
                 
-                <p class="font-mono">🔗 link.spce.moe</p>
+                <p class="font-mono"><router-link to="about">About Me »</router-link></p>
 
                 <!-- <router-link to="about">About</router-link> -->
 

@@ -11,14 +11,14 @@
             <div class="md:grid md:grid-cols-3 md:gap-16 p-8 opacity-60 pb-16 pt-16 text-md">
 
                 <div class="justify-center text-center pb-12">
-                    <h1 class="font-semibold text-lg underline">applications</h1><br>
+                    <h1 class="font-semibold text-lg underline">pinned</h1><br>
                     <p><a href="https://mail.spce.moe" target="_blank">mailbox</a></p>
                     <p><a href="https://jelly.spce.moe" target="_blank">media</a></p>
                 </div>
                 
                 <div class="justify-center text-center pb-12">
                     <h1 class="font-semibold text-lg underline">about</h1><br>
-                    <p><a href="#" target="">Matrix</a></p>
+                    <p><a href="">About</a></p>
                 </div>
 
                 <div class="justify-center text-center pb-12">

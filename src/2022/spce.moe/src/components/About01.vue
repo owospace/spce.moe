@@ -14,10 +14,11 @@
 
         <div class="font-light text-xl card-text p-5 m-5">
             <h1 class="font-bold text-4xl pb-5 card-title">heya, i'm space!</h1>
-            <p>i work with computers.</p>
-            <p>more specifically, i am an IT Specialist with a major passion in my field.</p>
-            <p><br></p>
-            <p>i am a big advocate on privacy; and also a huge geek.</p>
+            <p>I'm an IT specialist with a major passion in my field.</p>
+            <br>
+            <p>I created this page to give a quick & digestible run down about me.</p>
+            <br>
+            <p>I love the idea of a better world. I respect privacy advocation & am a geek when I want to be.</p>
             <!-- See, this is where i'd put some big life story, but you definitely don't care about that. -->
         </div>
 
@@ -33,6 +34,30 @@ export default {
 </script>
 
 <style scoped>
+h1{
+  padding: 8px; 
+  position: relative; 
+  z-index: 2;
+  color: #444;
+}
+
+h1:first-child{ border-left: 8px solid #e8e8e8; }
+
+h1:after { 
+  content: "";
+  height: 100%; 
+  left: 0; 
+  top: 0; 
+  width: 0px;  
+  position: absolute; 
+  transition: all 0.3s ease 0s; 
+  -webkit-transition: all 0.3s ease 0s; 
+  z-index: -1;
+}
+
+h1:hover:after{ width: 75%; }
+h1:after{ background: #323232; }
+
 .card-title {
     color: #fff;
 }

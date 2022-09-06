@@ -4,18 +4,18 @@
     <div class="flex justify-center">
 
         <div class="font-light text-xl card-text p-5 m-5 text-right">
-            <h1 class="font-bold text-4xl pb-5 card-title">My Expertise...</h1>
+            <h1 class="font-bold text-4xl pb-5 card-title">so... your talent?</h1>
             <p>As of 2019, I have been continuously expanding my skillset.</p>
-            <p>This is all HANDS ON EXPERIENCE- not some course.</p>
+            <p>In my opinion, hands-on experience means more than some arbitrary course or programme.</p>
             <br>
-            <p>KVM/Virtual Machines - ⭐⭐⭐⭐⭐</p>
+            <p>Virtual Machines (KVM) - ⭐⭐⭐⭐⭐</p>
             <p>Linux (Desktop/Server) - ⭐⭐⭐⭐⭐</p>
-            <p>System Admin - ⭐⭐⭐⭐⭐</p>
+            <p>System Administration - ⭐⭐⭐⭐⭐</p>
             <p>Networking & Infra - ⭐⭐⭐⭐</p>
             <p>Programming - ⭐⭐⭐⭐</p>
-            <p>Graphic Design - ⭐⭐⭐⭐</p>
+            <p>Graphic Design - ⭐⭐⭐</p>
             <br>
-            <p class="text-blue-200 hover:underline"><a href="https://github.com/owospace" target="_blank">I have **some** of my work published on GitHub.</a></p>
+            <p class="text-blue-200 hover:underline"><a href="https://github.com/owospace" target="_blank">I have <i>some</i> of my work published on GitHub.</a></p>
             <!-- Need to add Qualifications like CCNA/CompTia here. -->
             <!-- Should also add my personal stack, no? -->
         </div>
