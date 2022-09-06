@@ -16,8 +16,15 @@
                 <h1 class="font-semibold text-3xl hcl">maple</h1>
                 
                 <p class="pb-6 pt-2 font-mono">she/her</p>
-                <p class="font-mono ">💼 Software Developer</p>
-                <p class="font-mono">📍 Netherlands</p>
+
+                <div class="flex justify-center">
+                    <img class="ico" src="../assets/briefcase.png"><p class="font-mono pl-2">Software Developer</p>
+                </div>
+
+                <div class="flex justify-center">
+                    <img class="ico" src="../assets/location.png"><p class="font-mono pl-2">Netherlands</p>
+                </div>
+
 
                 <p class="pb-6 pt-6 font-mono">coexisting with my bed</p>
                 
@@ -31,6 +38,11 @@
 </template>
 
 <style scoped>
+.ico {
+    max-height: 20px;
+    max-width: 20px;
+}
+
 @keyframes parallax {
 	100% {
 		background-position: 

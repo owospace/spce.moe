@@ -47,7 +47,6 @@
 .ico {
     max-height: 25px;
     max-width: 25px;
-    display: flex;
 }
 
 .align-right {
