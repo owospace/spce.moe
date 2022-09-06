@@ -68,7 +68,8 @@ h1:after{ background: #323232; }
 
 .background {
     background-color: #1e1e1e;
-    /* background-image: url('../assets/miku1.jpg'); */
+    /* background-image: url('../assets/constellation.png'); */
+    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
