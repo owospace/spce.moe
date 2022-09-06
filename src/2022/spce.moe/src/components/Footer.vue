@@ -1,5 +1,8 @@
 <!-- 
-    This is part of a new migration. Let's enjoy!
+    This file was created for 'spce.moe'.
+    File: Footer.vue @ https://github.com/owospace/spce.moe
+
+    Updated components toolkit @ https://github.com/owospace/vue3-comp-toolkit
 -->
 
 <template>
@@ -29,16 +32,24 @@
 
             </div>
 
-            <div class="text-center p-4 pb-24 font-semibold opacity-80">
-                <h3>🌑 made with 💕 @ spce.moe</h3>
-                <h3>This website is open source.</h3>
+            <div class="font-semibold opacity-80 flex justify-center">
+                <h3 class="pr-2">made with</h3>
+                <img class="ico" src="../assets/heart.png">
+                <h3 class="pl-2">@ spce.moe</h3>
             </div>
+            <h3 class="text-center pb-24 opacity-80"><a href="https://github.com/owospace/spce.moe">You know this website is open source?</a></h3>
 
         </footer>
     </div>
 </template>
 
 <style scoped>
+.ico {
+    max-height: 25px;
+    max-width: 25px;
+    display: flex;
+}
+
 .align-right {
     text-align: right;
     float: right;

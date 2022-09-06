@@ -1,5 +1,8 @@
 <!-- 
-    This is part of a new migration. Let's enjoy!
+    This file was created for 'spce.moe'.
+    File: PetalPage.vue @ https://github.com/owospace/spce.moe
+
+    Updated components toolkit @ https://github.com/owospace/vue3-comp-toolkit
 -->
 
 <template>

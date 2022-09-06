@@ -1,5 +1,8 @@
 <!-- 
-    This is part of a new migration. Let's enjoy!
+    This file was created for 'spce.moe'.
+    File: Navigation.vue @ https://github.com/owospace/spce.moe
+
+    Updated components toolkit @ https://github.com/owospace/vue3-comp-toolkit
 -->
 
 <template>
@@ -14,8 +17,8 @@
                 <div class="text-center p-8 fade mx-auto">
                     <nav>
                         <ul>
-                            <div class="selector" id="selector-main"><li><div id="circle"></div><router-link to="/">Home</router-link></li></div>
-                            <div class="selector" id="selector-main"><li><div id="circle"></div><router-link to="/about">About</router-link></li></div>
+                            <div class="selector" id="selector-main"><li><div id="slash"></div><router-link to="/">Home</router-link></li></div>
+                            <div class="selector" id="selector-main"><li><div id="slash"></div><router-link to="/about">About</router-link></li></div>
                             <!-- <li><router-link to="apps">Apps</router-link></li> -->
                         </ul>
                     </nav>
@@ -84,7 +87,7 @@ nav a:hover {
   text-decoration: none;
 }
 
-#circle {
+#slash {
   width: 0%;
   height: 0%;
   opacity: 0;
@@ -97,7 +100,7 @@ nav a:hover {
   left: 70px;
 }
 
-#selector-main:hover #circle {
+#selector-main:hover #slash {
   width: 200%;
   height: 500%;
   opacity: 1;
