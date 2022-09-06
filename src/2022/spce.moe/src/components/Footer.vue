@@ -8,25 +8,30 @@
             <div class="md:grid md:grid-cols-3 md:gap-16 p-8 opacity-60 pb-16 pt-16 text-md">
 
                 <div class="justify-center text-center pb-12">
-                    <h1 class="font-semibold text-lg underline">pinned</h1><br>
+                    <h1 class="font-semibold text-lg underline">applications</h1><br>
                     <p><a href="https://mail.spce.moe" target="_blank">mailbox</a></p>
                     <p><a href="https://jelly.spce.moe" target="_blank">media</a></p>
                 </div>
                 
                 <div class="justify-center text-center pb-12">
-                    <h1 class="font-semibold text-lg underline">social</h1><br>
-                    <p><a href="#" target="">Matrix (soon)</a></p>
+                    <h1 class="font-semibold text-lg underline">about</h1><br>
+                    <p><a href="#" target="">Matrix</a></p>
                 </div>
 
                 <div class="justify-center text-center pb-12">
-                    <h1 class="font-semibold text-lg underline">shortcut</h1><br>
-                    <p><a href="#">home</a></p>
+                    <h1 class="font-semibold text-lg underline">contact</h1><br>
+                    <p><a href="#">Business Enquiries<br>biz(at)spce.moe</a></p>
+                    <p><a href="#">You like men.</a></p>
+                    <div>
+                        <button></button>
+                    </div>
                 </div>
 
             </div>
 
-            <div class="text-center p-4 font-semibold opacity-80">
+            <div class="text-center p-4 pb-24 font-semibold opacity-80">
                 <h3>🌑 made with 💕 @ spce.moe</h3>
+                <h3>This website is open source.</h3>
             </div>
 
         </footer>
@@ -54,9 +59,6 @@
 h1 {
     color: #e8e8e8;
     text-transform: uppercase;
-}
-h2 {
-
 }
 h3 {
     color: #e8e8e8;
