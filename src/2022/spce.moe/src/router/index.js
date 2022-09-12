@@ -12,11 +12,6 @@ const routes = [
     component: () => import("../views/About.vue"),
   },
   // {
-  //   path: '/apps',
-  //   name: 'apps',
-  //   component: () => import("../views/Apps.vue"),
-  // },
-  // {
   //   path: '/petal',
   //   name: 'petal',
   //   component: () => import("../views/Petal.vue"),
