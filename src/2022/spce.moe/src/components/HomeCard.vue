@@ -13,20 +13,20 @@
             <div class="p-8 fade rounded-2xl text-center mx-auto card opacity-60">
 
                 <img class="container pt-8" src="../assets/logo.png">
-                <h1 class="font-semibold text-3xl hcl">maple</h1>
+                <h1 class="font-semibold text-3xl hcl">space</h1>
                 
-                <p class="pb-6 pt-2 font-mono">she/her</p>
+                <p class="pb-6 pt-2 font-mono"></p>
 
                 <div class="flex justify-center pb-1">
                     <img class="ico" src="../assets/briefcase.png"><p class="font-mono pl-2">Software Developer</p>
                 </div>
 
                 <div class="flex justify-center">
-                    <img class="ico" src="../assets/location.png"><p class="font-mono pl-2">Netherlands</p>
+                    <img class="ico" src="../assets/location.png"><p class="font-mono pl-2">cybrspce</p>
                 </div>
 
 
-                <p class="pb-6 pt-6 font-mono">coexisting with my bed</p>
+                <p class="pb-6 pt-6 font-mono">amogOS best OS</p>
                 
                 <p class="font-mono"><router-link to="about">About Me »</router-link></p>
 
