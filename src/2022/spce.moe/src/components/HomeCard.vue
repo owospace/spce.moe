@@ -26,9 +26,9 @@
                 </div>
 
 
-                <p class="pb-6 pt-6 font-mono">amogOS best OS</p>
+                <p class="pb-6 pt-6 font-mono">uwuntu best OS</p>
                 
-                <p class="font-mono"><router-link to="about">About Me »</router-link></p>
+                <p class="font-mono"><a href="https://spce.moe/#/about">About Me »</a></p>
 
                 <!-- <router-link to="about">About</router-link> -->
 
