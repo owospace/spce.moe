@@ -17,14 +17,13 @@
                 </div>
                 
                 <div class="justify-center text-center pb-12">
-                    <h1 class="font-semibold text-lg underline">about</h1><br>
-                    <p><a href="">About</a></p>
+                    <h1 class="font-semibold text-lg underline">social</h1><br>
+                    <p><a href="">uh</a></p>
                 </div>
 
                 <div class="justify-center text-center pb-12">
                     <h1 class="font-semibold text-lg underline">contact</h1><br>
                     <p><a href="#">Business Enquiries<br>biz(at)spce.moe</a></p>
-                    <p><a href="#">You like men.</a></p>
                     <div>
                         <button></button>
                     </div>

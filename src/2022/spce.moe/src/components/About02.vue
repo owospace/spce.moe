@@ -8,6 +8,15 @@
             <p>As of 2019, I have been continuously expanding my skillset.</p>
             <p>In my opinion, hands-on experience means more than some arbitrary course or programme.</p>
             <br>
+
+            <strong><button v-on:click="showDetails()" id="dbutton">+</button> System Administration - ⭐⭐⭐⭐⭐</strong>
+                <span id="details">
+                    <p class="pt-2 pb-10">
+                    I am very proficient in using virtualised environments: Primarily KVM and LXC.<br>
+                    I use such software on a daily basis to run my own infrastructure and for security too.
+                    </p>
+                </span>
+
             <p>Virtual Machines (KVM) - ⭐⭐⭐⭐⭐</p>
             <p>Linux (Desktop/Server) - ⭐⭐⭐⭐⭐</p>
             <p>System Administration - ⭐⭐⭐⭐⭐</p>
@@ -37,10 +46,32 @@
 <script>
 export default {
     name: 'AboutCard',
+
+    methods: {
+
+
+        showDetails() {
+            var details = document.getElementById("details");
+            var button = document.getElementById("dbutton");
+
+            if (details.style.display === "") {
+                button.innerHTML = "-";
+                details.style.display = 'inline';
+            } else {
+                button.innerHTML = "+";
+                details.style.display = "";
+            }
+        }
+
+
+    }
 }
+
 </script>
 
 <style scoped>
+#details { display: none; }
+
 .card-title {
     color: #fff;
 }

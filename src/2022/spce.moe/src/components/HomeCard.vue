@@ -12,13 +12,13 @@
 
             <div class="p-8 fade rounded-2xl text-center mx-auto card opacity-60">
 
-                <img class="container pt-8" src="../assets/logo.png">
+                <img class="container pt-10" src="../assets/logo.png">
                 <h1 class="font-semibold text-3xl hcl">space</h1>
                 
-                <p class="pb-6 pt-2 font-mono"></p>
+                <p class="pb-6 pt-2 font-mono">welcome</p>
 
                 <div class="flex justify-center pb-1">
-                    <img class="ico" src="../assets/briefcase.png"><p class="font-mono pl-2">Software Developer</p>
+                    <img class="ico" src="../assets/briefcase.png"><p class="font-mono pl-2">IT Specialist</p>
                 </div>
 
                 <div class="flex justify-center">
@@ -26,7 +26,7 @@
                 </div>
 
 
-                <p class="pb-6 pt-6 font-mono">uwuntu best OS</p>
+                <p class="pb-6 pt-8 font-mono">> coexisting with my bed</p>
                 
                 <p class="font-mono"><a href="https://spce.moe/#/about">About Me »</a></p>
 
@@ -110,8 +110,8 @@ h1,p {
 
 .card {
     max-width: 350px;
-    min-height: 700px;
-    max-height: 800px;
+    min-height: 720px;
+    max-height: 850px;
     background-color: #323232;
     overflow: hidden;
     position: relative;
