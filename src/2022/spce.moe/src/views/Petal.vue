@@ -1,6 +1,8 @@
 <template>
     <div id="petal">
+
         <PetalPage />
+        
     </div>
 </template>
 

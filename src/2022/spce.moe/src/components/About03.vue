@@ -14,10 +14,12 @@
 
         <div class="font-light text-xl card-text p-5 m-5">
             <h1 class="font-bold text-4xl pb-5 card-title">how to get in touch...</h1>
-            <p>via email or (some form of) matrix client.</p>
-            <br>
-            <p>biz at spce dot moe</p>
-            <p>at space semicolon matrix dot org</p>
+            <p>
+                via email or (some form of) matrix client.<br>
+                <br>
+                (mail) biz at spce dot moe<br>
+                (matrix) at space semicolon matrix dot org
+            </p>
             <!-- Average Response Time: 1-365 business days -->
         </div>
 

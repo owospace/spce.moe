@@ -5,17 +5,21 @@
             <img src="../assets/hutaobaa.png" style="max-width:200px;max-height:200px;">
 
             <div class="rounded-xl text-2xl text-e8 pl-12">
+                
                 <h1 class="text-8xl text-left">404</h1>
-                <p>The resource you requested was not found.</p>
-                <br>
-                <p>Whatever you were looking for, might've been misplaced in limbo.</p>
-                <p>Let's get you back on track, shall we?</p>
-                <br>
-                <div class="button animate-up" id="button-main">
+                <p class="pl-8">
+                    The resource you requested was not found.<br>
+                    <br>
+                    Whatever you were looking for, might've been misplaced in limbo.<br>
+                    Let's get you back on track, shall we?<br>
+                </p>
+                <div class="button" id="button-main">
                     <div id="circle"></div>
                     <a href="#">🏠 home</a>
                 </div>
+
             </div>
+
         </div>
     </div>
 </template>

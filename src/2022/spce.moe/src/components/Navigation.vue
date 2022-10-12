@@ -19,7 +19,6 @@
                         <ul>
                             <div class="selector" id="selector-main"><li><div id="slash"></div><router-link class="p-1" to="/">Home</router-link></li></div>
                             <div class="selector" id="selector-main"><li><div id="slash"></div><router-link class="p-1" to="/about">About</router-link></li></div>
-                            <!-- <li><router-link to="apps">Apps</router-link></li> -->
                         </ul>
                     </nav>
                 </div>

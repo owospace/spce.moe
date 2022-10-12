@@ -18,8 +18,8 @@
             <br>
             <p>I created this page to give a quick & digestible run down about me.</p>
             <br>
-            <p>I love the idea of a better world. I respect privacy advocation & am a geek when I want to be. 
-            <br>(Though I hate to admit it (￣▽￣*)ゞ)</p>
+            <p>I make life simple & easy! A privacy advocate & geek when I want to be. 
+            <br>(  Though I hate to admit it (￣▽￣*)ゞ  )</p>
             <!-- See, this is where i'd put some big life story, but you definitely don't care about that. -->
         </div>
 

@@ -1,8 +1,10 @@
 <template>
     <div id="about">
+
         <About01 />
         <About02 />
         <About03 />
+
     </div>
 </template>
 

@@ -1,6 +1,8 @@
 <template>
     <div id="home">
+
         <HomeCard />
+        
     </div>
 </template>
 

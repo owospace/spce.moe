@@ -3,8 +3,8 @@
 
     <div class="flex justify-center">
 
-        <div class="font-light text-xl card-text p-5 m-5 text-right">
-            <h1 class="font-bold text-4xl pb-5 card-title">so... your talent?</h1>
+        <div class="font-light text-xl card-text p-5 m-5">
+            <h1 class="font-bold text-4xl pb-5 card-title">skillz & talent</h1>
             <p>As of 2019, I have been continuously expanding my skillset.</p>
             <p>In my opinion, hands-on experience means more than some arbitrary course or programme.</p>
             <br>
@@ -12,8 +12,8 @@
             <strong><button v-on:click="showDetails()" id="dbutton">+</button> System Administration - ⭐⭐⭐⭐⭐</strong>
                 <span id="details">
                     <p class="pt-2 pb-10">
-                    I am very proficient in using virtualised environments: Primarily KVM and LXC.<br>
-                    I use such software on a daily basis to run my own infrastructure and for security too.
+                        I am very self-proficient in System Administration.<br>
+                        I go through such tasks on a daily basis. Utilising KVM & LXC to manage application software and hardware, keeping them up-to-date and secure.
                     </p>
                 </span>
 
@@ -70,6 +70,11 @@ export default {
 </script>
 
 <style scoped>
+.ico {
+    max-height: 25px;
+    max-width: 25px;
+}
+
 #details { display: none; }
 
 .card-title {
