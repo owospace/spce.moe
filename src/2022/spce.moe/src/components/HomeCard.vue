@@ -28,7 +28,7 @@
 
                 <p class="pb-6 pt-8 font-mono">> coexisting with my bed</p>
                 
-                <p class="font-mono"><a href="https://spce.moe/#/about">About Me »</a></p>
+                <p class="font-mono"><a href="https://spce.moe/#/about">View More »</a></p>
 
                 <!-- <router-link to="about">About</router-link> -->
 

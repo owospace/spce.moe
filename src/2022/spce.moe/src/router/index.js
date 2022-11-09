@@ -11,11 +11,6 @@ const routes = [
     name: 'about',
     component: () => import("../views/About.vue"),
   },
-  // {
-  //   path: '/petal',
-  //   name: 'petal',
-  //   component: () => import("../views/Petal.vue"),
-  // },
   {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
