@@ -12,10 +12,11 @@
 
             <div class="p-8 fade rounded-2xl text-center mx-auto card opacity-60">
 
-                <img class="container pt-10" src="../assets/logo.png">
-                <h1 class="font-semibold text-3xl hcl">space</h1>
+                <img class="container pt-10 rounded-full pfp" src="../assets/hutaobaa.png">
+                <h1 class="font-semibold text-3xl hcl">welcome</h1>
                 
-                <p class="pb-6 pt-2 font-mono">welcome</p>
+                <p class="pb-6 pt-2 font-mono">i'm space<br><br>
+                A passionate person with too much free time.</p>
 
                 <div class="flex justify-center pb-1">
                     <img class="ico" src="../assets/briefcase.png"><p class="font-mono pl-2">IT Specialist</p>
@@ -26,9 +27,11 @@
                 </div>
 
 
-                <p class="pb-6 pt-8 font-mono">> coexisting with my bed</p>
+                <!-- <p class="pb-6 pt-8 font-mono">> coexisting with my bed</p> -->
                 
-                <p class="font-mono"><a href="https://spce.moe/#/about">View More »</a></p>
+                <p class="pb-6 pt-8 font-mono"><a href="https://spce.moe/#/about">Get in Touch »</a></p>
+
+                <img class="sc mx-auto" src="../assets/logo.png">
 
                 <!-- <router-link to="about">About</router-link> -->
 
@@ -41,6 +44,16 @@
 .ico {
     max-height: 20px;
     max-width: 20px;
+}
+
+.pfp {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.sc {
+    max-height: 35px;
+    max-width: 35px;
 }
 
 @keyframes parallax {
@@ -61,7 +74,7 @@
 .slice-div,.slice-div-large {
     left: -1%;
     transform: skew(-1deg, 0deg) rotate(-2deg);
-    top: 345px;
+    top: 365px;
     right: 0%;
     bottom: auto;
     height: 100%;
@@ -77,7 +90,7 @@
 .bg {
     background-color: #1e1e1e;
     position: relative;
-    height: 480px;
+    height: 520px;
     max-width: 100%;
     /* overflow: hidden; */
     background-position: 50% 50%;
@@ -110,7 +123,7 @@ h1,p {
 
 .card {
     max-width: 350px;
-    min-height: 720px;
+    min-height: 780px;
     max-height: 850px;
     background-color: #323232;
     overflow: hidden;

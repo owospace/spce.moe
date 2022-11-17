@@ -8,22 +8,24 @@
 <template>
     <div id="footer">
         <footer>
-            <div class="md:grid md:grid-cols-3 md:gap-16 p-8 opacity-60 pb-16 pt-16 text-md">
-
-                <div class="justify-center text-center pb-12">
-                    <h1 class="font-semibold text-lg underline">pinned</h1><br>
-                    <p><a href="https://mail.spce.moe" target="_blank">mailbox</a></p>
-                    <p><a href="https://jelly.spce.moe" target="_blank">media</a></p>
-                </div>
+            <div class="md:grid font-mono md:grid-cols-3 md:gap-8 p-8 opacity-60 pb-8 pt-16 text-md">
                 
                 <div class="justify-center text-center pb-12">
-                    <h1 class="font-semibold text-lg underline">social</h1><br>
-                    <p><a href="">uh</a></p>
+                    <h1 class="font-semibold text-lg underline">shit</h1><br>
+                    <p><a href="https://spce.moe/#/about">Work</a></p>
+                    <p><a href="https://spce.moe/#/services">Services</a></p>
+                    <p><a href="https://spce.moe/#/blog">Blog</a></p>
                 </div>
 
                 <div class="justify-center text-center pb-12">
-                    <h1 class="font-semibold text-lg underline">contact</h1><br>
-                    <p><a href="#">Business Enquiries<br>biz(at)spce.moe</a></p>
+                    <img class="mx-auto logf" src="../assets/logo.png">
+                </div>
+
+                <div class="justify-center text-center pb-12">
+                    <h1 class="font-semibold text-lg underline">more shit</h1><br>
+                    <p><a href="https://spce.moe/#/pphahaha">Privacy Policy</a></p>
+                    <p><a href="https://spce.moe/#/faq">FAQ</a></p>
+                    <p><a href="https://spce.moe/#/uses">Uses</a></p>
                     <div>
                         <button></button>
                     </div>
@@ -31,18 +33,30 @@
 
             </div>
 
-            <div class="font-semibold opacity-80 flex justify-center">
+            <hr class="hr pb-8 ml-24 mr-24">
+
+            <div class="font-semibold opacity-80 flex justify-center pb-8">
                 <h3 class="pr-2">made with</h3>
                 <img class="ico" src="../assets/heart.png">
                 <h3 class="pl-2">@ spce.moe</h3>
             </div>
-            <h3 class="text-center pb-24 opacity-80"><a href="https://github.com/owospace/spce.moe">You know this website is open source?</a></h3>
 
         </footer>
     </div>
 </template>
 
 <style scoped>
+.hr {
+    height: 1;
+    border-width: 1;
+    border-color: #1e1e1e;
+}
+
+.logf {
+    max-width: 160px;
+    max-height: 160px;
+}
+
 .ico {
     max-height: 25px;
     max-width: 25px;
@@ -67,7 +81,6 @@
 
 h1 {
     color: #e8e8e8;
-    text-transform: uppercase;
 }
 h3 {
     color: #e8e8e8;

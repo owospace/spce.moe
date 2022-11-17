@@ -16,6 +16,21 @@ const routes = [
     name: 'NotFound',
     component: () => import("../views/404.vue"),
   },
+  {
+    path: '/pphahaha',
+    name: 'privacy',
+    component: () => import("../views/Privacy.vue"),
+  },
+  // {
+  //   path: '/faq',
+  //   name: 'faq',
+  //   component: () => import("../views/FAQ.vue"),
+  // },
+  // {
+  //   path: '/uses',
+  //   name: 'uses',
+  //   component: () => import("../views/Uses.vue"),
+  // }
 ]
 
 const router = createRouter({

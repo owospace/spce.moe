@@ -3,7 +3,7 @@
 
     <div class="flex justify-center">
 
-        <div class="card rounded-lg shadow-xl p-5 m-5 hover:-rotate-6" id="about">
+        <div class="card rounded-lg shadow-xl p-5 m-5" id="about">
             <div class="font-bold text-6xl tracking-widest card-text">
                 <a>03</a>
             </div>

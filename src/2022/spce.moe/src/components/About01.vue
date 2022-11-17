@@ -3,7 +3,7 @@
 
     <div class="flex justify-center">
 
-        <div class="card rounded-lg shadow-xl p-5 m-5 hover:-rotate-6" id="about">
+        <div class="card rounded-lg shadow-xl p-5 m-5" id="about">
             <div class="font-bold text-6xl tracking-widest card-text">
                 <a>01</a>
             </div>
@@ -13,7 +13,7 @@
         </div>
 
         <div class="font-light text-xl card-text p-5 m-5">
-            <h1 class="font-bold text-4xl pb-5 card-title">heya, i'm space!</h1>
+            <h1 class="font-bold text-4xl pb-5 card-title mb-4">heya, i'm space!</h1>
             <p>I'm an IT specialist with a major passion in my field.</p>
             <br>
             <p>I created this page to give a quick & digestible run down about me.</p>
@@ -31,6 +31,7 @@
 <script>
 export default {
     name: 'AboutCard',
+    methods: {}
 }
 </script>
 
