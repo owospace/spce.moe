@@ -12,11 +12,11 @@
 
             <div class="p-8 fade rounded-2xl text-center mx-auto card opacity-60">
 
-                <img class="container pt-10 rounded-full pfp" src="../assets/hutaobaa.png">
+                <img class="rounded-full pfp mt-6 mb-6 mx-auto" src="../assets/pfp.png">
                 <h1 class="font-semibold text-3xl hcl">welcome</h1>
                 
                 <p class="pb-6 pt-2 font-mono">i'm space<br><br>
-                A passionate person with too much free time.</p>
+                A passionate dev with too much free time.</p>
 
                 <div class="flex justify-center pb-1">
                     <img class="ico" src="../assets/briefcase.png"><p class="font-mono pl-2">IT Specialist</p>
@@ -31,7 +31,7 @@
                 
                 <p class="pb-6 pt-8 font-mono"><a href="https://spce.moe/#/about">Get in Touch »</a></p>
 
-                <img class="sc mx-auto" src="../assets/logo.png">
+                <!-- <img class="sc mx-auto" src="../assets/logo.png"> -->
 
                 <!-- <router-link to="about">About</router-link> -->
 
@@ -47,8 +47,8 @@
 }
 
 .pfp {
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 200px;
+    max-width: 200px;
 }
 
 .sc {

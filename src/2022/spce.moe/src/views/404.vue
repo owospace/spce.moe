@@ -7,7 +7,7 @@
             <div class="rounded-xl text-2xl text-e8 pl-12">
                 
                 <h1 class="text-8xl text-left">404</h1>
-                <p class="pl-8">
+                <p class="">
                     The resource you requested was not found.<br>
                     <br>
                     Whatever you were looking for, might've been misplaced in limbo.<br>

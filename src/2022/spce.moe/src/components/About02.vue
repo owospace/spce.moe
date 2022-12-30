@@ -4,7 +4,7 @@
     <div class="flex justify-center">
 
         <div class="font-light text-xl card-text p-5 m-5">
-            <h1 class="font-bold text-4xl pb-5 card-title">skillz & talent</h1>
+            <h1 class="font-bold text-4xl pb-5 card-title">talent</h1>
             <p>As of 2019, I have been continuously working hard to expand my skillset.</p>
             <p>In my opinion, hands-on experience means more than some arbitrary course or programme.</p>
             <br>
@@ -27,7 +27,7 @@
                 </span>
                 <br>
 
-            <strong><button v-on:click="showDetails3()" id="dbutton3">+</button> Networking - ⭐⭐⭐⭐⭐</strong>
+            <strong><button v-on:click="showDetails3()" id="dbutton3">+</button> Networking - ⭐⭐⭐⭐</strong>
                 <span id="details3">
                     <p class="pt-2 pb-10">
                         I am experienced with networks and how they work.<br>
